@@ -3,7 +3,7 @@
  title: Slice Study
  date:   2021-08-05 16:30:25 +0800
  # categories: golang
- subtitle: Slices wrap arrays to give a more general, powerful, and convenient interface to sequences of data.
+ subtitle: powerful, and convenient interface to sequences of data.
  # cover-img: /assets/img/path.jpg
  # thumbnail-img: /assets/img/thumb.png
  # share-img: /assets/img/path.jpg
@@ -13,7 +13,6 @@
 ---
 
 在 Golang 中，有 Array and Slice 這兩種 type。
-
 Array 類似其他語言的定義，但是在 Golang 中 Array type 必須定義長度以及元素的類型
 
 ```go
