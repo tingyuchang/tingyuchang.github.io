@@ -2,10 +2,10 @@
  layout: post
  title: Understand Nil
  date:   2021-08-08 12:00:00 +0800
- categories: golang
+ subtitle: nil is not nil
+ tags: [golang]
+ #categories: golang
 ---
-
-# UnderStand Nil
 
 ### 前言
 
