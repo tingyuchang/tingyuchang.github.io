@@ -1,4 +1,10 @@
-# How to make mistake in go part.2
+---
+ layout: post
+ title: How to make mistakes in go part.2
+ date:   2021-08-16 22:00:00 +0800
+ subtitle: the best ways to make mistakes
+ tags: [golang]
+---
 
 這是一篇聽完 podcast 的心得分享，因為上集有點長，所以拆成兩個部分，這是下集
 
