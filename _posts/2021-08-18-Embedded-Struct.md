@@ -6,7 +6,7 @@
  tags: [golang]
 ---
 
-golang 透過 embedded struct 實現類似繼承的概念，但是這個特性不是繼承，比較接近的想法應該是 struct composition ，在一個 struct 內，如果有多個 embedded interfaces or structs ，這一個 struct 就擁有了這些 interface or struct 的方法，概念上是很容易明白的，不過實際上。
+golang 透過 embedded struct 實現類似繼承的概念，但是這個特性不是繼承，比較接近的想法應該是 struct composition ，在一個 struct 內，如果有多個 embedded interfaces or structs ，這一個 struct 就擁有了這些 interface or struct 的方法，概念上是很容易明白的，不過實際上還是有地方需要釐清。
 
 具體來說，有這幾種實現的方式：
 
