@@ -5,7 +5,7 @@
  subtitle: goroutine with context and waitgroup
  tags: [golang]
 ---
-之前有提到 Context 可以用來管理 goroutine 的，根據 Context 的結構，可以做水平或是垂直的任務管理，水平的意思是一群平行的任務彼此不互相影響，垂直則是上層的任務會影響下層的任務
+Context 可以用來管理 goroutine 的，根據 Context 的結構，可以做水平或是垂直的任務管理，水平的意思是一群平行的任務彼此不互相影響，垂直則是上層的任務會影響下層的任務
 
 ![https://i.imgur.com/MrZ7nAM.jpg](https://i.imgur.com/MrZ7nAM.jpg)
 
