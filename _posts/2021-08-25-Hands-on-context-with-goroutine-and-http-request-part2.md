@@ -1,12 +1,10 @@
-# Hands on context with goroutine and http request part.2
-
 ---
  layout: post
  title: Hands on context with goroutine and http request part.2
  date:   2021-08-25 13:00:00 +0800
  tags: [golang]
 ---
-[上一期](https://tingyuchang.github.io/2021-08-19-Hands-on-context-with-goroutine-and-http-request-part1md/)主要再解釋怎麼設計一個運用 context 管理的 goroutine request ，今天比較簡單，分成兩個部分，一個是說明 github 的 api ，另一個部分是上次的 httpDo 後來在研究 concurrency 的問題時，發現有一個 bug ，在這邊修正一下。
+上一期主要再解釋怎麼設計一個運用 context 管理的 goroutine request ，今天比較簡單，分成兩個部分，一個是說明 github 的 api ，另一個部分是上次的 httpDo 後來在研究 concurrency 的問題時，發現有一個 bug ，在這邊修正一下。
 
 - Read source file to find git repositories.
 - Using GitHub api to fetch repository information, such like description, starts, issues.
@@ -35,8 +33,8 @@ GET repo 的工作相對簡單，建立 request 並填上需要的參數，再�
 
 ```go
 	req, err := http.NewRequest("GET", GITHUB_API_URL+"repos/"+userRepo, nil)
-	req.Header.Set("Accept", viper.Get("http.githubheaderaccept").(string))
-	req.Header.Set("Authorization", fmt.Sprintf("token %v", viper.Get("http.githubheaderauthorization")))
+	req.Header.Set("Accept", "application/vnd.github.v3+json")
+	req.Header.Set("Authorization", "YOUR_TOKEN")
 	if err != nil {
 		return Repository{}, err
 	}
