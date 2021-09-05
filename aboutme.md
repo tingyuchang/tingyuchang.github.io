@@ -18,7 +18,7 @@ Languages
 :   Golang, Objective-C, Python
 
 Dev-Ops
-:   Docker, Kubernets, Circleci, BuddyBuild
+:   Docker, Circleci, BuddyBuild
 
 Cloud Vendor
 :   AWS, Azure
@@ -36,32 +36,25 @@ Sep 2020 - Nov 2020
 Jul 2019 - Aug 2020
 :   **33tech Network, Dev Team Leader**
 
-    - Took in charge of the new startup (with over 10 employees) spinning off from ICSGame.
+    Took a charge of new startup spinning off from ICSGame.
     - Planned and executed the budget scheme for the startup.
-    - Trained the engineering team to adopt Docker to improve development efficiency.
+    - Trained the engineering team to adopt Docker to improve efficiency.
     - Led the product team to adopt Scrum methodology and evaluated technical feasibility.
-    - Released the main product in 6 months, and an optimized version in the next 3 months.
-    - Direct management:
-      - RD team: 7 
-      - Product team: 4
+    - Release the main product in 6 months, and an optimized version in the next 3 months.
+    - Direct management： RD 7, Product 4
 
 Nov 2016 - Jun 2020
 :   **ICSGame Inc., IT Director**
 
-    - Built IT team and delivered all systems form Philippine to Taiwan.
-    - Built up the RD team and designed the training system.
-    - Led the dev team to refactor front-end architecture in 3 months.
-    - Led the dev team toward robust software development.
-    - Led the product team to adopt Scrum for new feature and Kanban for daily operation.
-    - Provided 24*7 operation service, including but not limited to:
-      - Made SOP for websites which were banned by the Great Firewall.
-      - Improved Domain hijacking issue.
+    - Build up IT team and deliver all systems form Philippine to Taiwan.
+    - Provided 24*7 operation service, making SOP for website was banned by Great Firewall and improved Domain hijacking issue.
+    - Led Dev team to refactor all product.
+    - Guided mobile app team to analyze sports lottery APIs, finished new Sportbook mobile app for 2018 WC.
+    - Cooperated with Infra-team to re-new all servers in new machines.
     - Organized management guild and assessed performance of the team members.
-    - Encouraged learning new technology/methodology to resolve problem.
     - Created a sharing and self-motivation team culture and environment.
-    - Direct management:
-      - RD team: 16
-      - Product team: 5
+    - Adopted Scrum methodology for development.
+    - Direct management: Backend 8, Front-end 2, Mobile 6, PM 3, Art 2
 
 
 Oct 2015 - Oct 2016
