@@ -2,7 +2,7 @@
  layout: post
  title: L4 vs L7 load balancing
  date:   2021-09-27 14:00:00 +0800
- tags: [nginx, load balancing]
+ tags: [nginx, load-balancing]
 ---
 OIS model 有七層，L4 是傳輸層（Transport Layer），L7 則是應用層（Application Layer），常見的 Load Balancing 機制在這兩層有不同的工作方式。
 
