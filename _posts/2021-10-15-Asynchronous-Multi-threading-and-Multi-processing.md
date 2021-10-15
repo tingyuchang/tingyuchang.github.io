@@ -1,7 +1,7 @@
 ---
  layout: post
  title: Asynchronous, Multi-threading and Multi-processing
- date:   2021-10-13 09:30:00 +0800
+ date:   2021-10-15 15:00:00 +0800
  tags: [Asynchronous, Multi-threading, Multi-processing]
 ---
 asynchronous, multi-threading 跟 multi-processing 感覺上很像，但是實際上是不同的處理方式。
