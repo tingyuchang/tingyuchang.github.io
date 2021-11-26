@@ -1,7 +1,7 @@
 ---
  layout: post
  title: Index in MySQL vs Postgres
- date:   2021-11-12 13:00:00 +0800
+ date:   2021-11-26 14:00:00 +0800
  tags: [postgresql, innodb, mysql, database]
 ---
 
